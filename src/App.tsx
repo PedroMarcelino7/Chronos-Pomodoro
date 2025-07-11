@@ -1,7 +1,9 @@
 import './styles/theme.css';
 import './styles/global.css';
+
 import { Container } from './components/Container/Container';
 import { Logo } from './components/Logo/Logo';
+import { Menu } from './components/Menu/Menu';
 
 export function App() {
   return (
@@ -11,7 +13,7 @@ export function App() {
       </Container>
 
       <Container>
-        <section>MENU</section>
+        <Menu />
       </Container>
 
       <Container>
