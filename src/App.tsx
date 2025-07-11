@@ -4,6 +4,7 @@ import './styles/global.css';
 import { Container } from './components/Container/Container';
 import { Logo } from './components/Logo/Logo';
 import { Menu } from './components/Menu/Menu';
+import { Countdown } from './components/Countdown/Countdown';
 
 export function App() {
   return (
@@ -17,7 +18,7 @@ export function App() {
       </Container>
 
       <Container>
-        <section>FORM</section>
+        <Countdown />
       </Container>
 
       <Container>
