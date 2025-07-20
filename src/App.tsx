@@ -5,6 +5,7 @@ import { Container } from './components/Container/Container';
 import { Logo } from './components/Logo/Logo';
 import { Menu } from './components/Menu/Menu';
 import { Countdown } from './components/Countdown/Countdown';
+import { Input } from './components/Input/Input';
 
 export function App() {
   return (
@@ -22,7 +23,32 @@ export function App() {
       </Container>
 
       <Container>
-        <section>FOOTER</section>
+        <form className='form' action="">
+          <div className="formRow">
+            <Input
+              type='text'
+              id='input'
+            />
+          </div>
+
+          <div className="formRow">
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+
+          <div className="formRow">
+            <p>
+              Ciclos
+            </p>
+
+            <p>0 0 0 0 0 0 0 0</p>
+          </div>
+
+          <div className="formRow">
+            <button>Botão</button>
+          </div>
+        </form>
       </Container>
     </>
   );
