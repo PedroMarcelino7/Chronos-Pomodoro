@@ -26,8 +26,10 @@ export function App() {
         <form className='form' action="">
           <div className="formRow">
             <Input
+              label='Task'
               type='text'
               id='input'
+              placeholder='Digite algo...'
             />
           </div>
 
