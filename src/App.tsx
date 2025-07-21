@@ -6,6 +6,7 @@ import { Logo } from './components/Logo/Logo';
 import { Menu } from './components/Menu/Menu';
 import { Countdown } from './components/Countdown/Countdown';
 import { Input } from './components/Input/Input';
+import { Cycles } from './components/Cycles/Cycles';
 
 export function App() {
   return (
@@ -40,11 +41,7 @@ export function App() {
           </div>
 
           <div className="formRow">
-            <p>
-              Ciclos
-            </p>
-
-            <p>0 0 0 0 0 0 0 0</p>
+            <Cycles />
           </div>
 
           <div className="formRow">
