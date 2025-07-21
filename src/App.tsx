@@ -7,6 +7,8 @@ import { Menu } from './components/Menu/Menu';
 import { Countdown } from './components/Countdown/Countdown';
 import { Input } from './components/Input/Input';
 import { Cycles } from './components/Cycles/Cycles';
+import { Button } from './components/Button/Button';
+import { PlayCircleIcon } from 'lucide-react';
 
 export function App() {
   return (
@@ -45,7 +47,9 @@ export function App() {
           </div>
 
           <div className="formRow">
-            <button>Botão</button>
+            <Button
+              icon={<PlayCircleIcon />}
+            />
           </div>
         </form>
       </Container>

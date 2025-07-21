@@ -5,7 +5,7 @@ type InputProps = {
     id: string,
 } & React.ComponentProps<'input'>
 
-export function Input({ label, id, ...rest }: InputProps) {
+export function Input({ label, id, ...props }: InputProps) {
     return (
         <>
             {label &&
@@ -19,7 +19,7 @@ export function Input({ label, id, ...rest }: InputProps) {
             <input
                 className={styles.input}
                 id={id}
-                {...rest}
+                {...props}
             />
         </>
     )
